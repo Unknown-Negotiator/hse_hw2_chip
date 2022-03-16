@@ -18,3 +18,8 @@ ENCFF000ARK | 6251047 (100.00%) | 5058249 (80.92%) | 276089 (4.42%) | 916709 (14
 Our peaks in published | Published peaks in ours
 -|-
 ![](images/aun_venn1.jpg) | ![](images/aun_venn2.jpg)
+### Replicate 2 (ENCFF000AUM)
+Our peaks in published | Published peaks in ours
+-|-
+![](images/aum_venn1.jpg) | ![](images/aum_venn2.jpg)
+### Conclusions
