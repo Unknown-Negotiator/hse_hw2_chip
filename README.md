@@ -1,6 +1,16 @@
 # hse_hw2_chip
 В данном практическом задании вы научитесь определять участки генома, где присутствует определенная гистоновая модификация в конкретном типе клеток с помощью анализа ChIP-Seq данных.
 ## [Google Colab link](https://colab.research.google.com/drive/1duVTtPtYxVa_Alkp62uzowUPBcbpUHEI?usp=sharing)
+## Quality control
+Quality parameter | Raw reads | Trimmed reads
+-|-|-
+fastqc_per_sequence_quality_scores_plot | ![](images/multiqc_raw/fastqc_per_sequence_quality_scores_plot.png) | ![](images/multiqc_trim/fastqc_per_sequence_quality_scores_plot.png)
+
+images/multiqc_raw/fastqc-status-check-heatmap.png
+images/multiqc_raw/fastqc_overrepresented_sequences_plot.png
+images/multiqc_raw/fastqc_per_base_sequence_content_plot.png
+images/multiqc_raw/fastqc_per_base_sequence_quality_plot.png
+images/multiqc_raw/fastqc_per_sequence_quality_scores_plot.png
 ## Results of mapping reads on the chromosome 14
 Sample ID | Reads analyzed | Aligned 0 times | Aligned exactly 1 time | aligned >1 times
  --- |--- |--- |--- |---
