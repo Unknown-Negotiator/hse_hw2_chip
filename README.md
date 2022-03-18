@@ -9,11 +9,11 @@ Raw reads | Trimmed reads | Filtered and trimmed reads
 ![](images/multiqc_raw/fastqc_per_base_sequence_content_plot.png) | ![](images/multiqc_trim/fastqc_per_base_sequence_content_plot.png)
 ![](images/multiqc_raw/fastqc_overrepresented_sequences_plot.png) | ![](images/multiqc_trim/fastqc_overrepresented_sequences_plot.png)
 
-![](images/multiqc_raw/fastqc_per_sequence_quality_scores_plot.png) | ![](images/multiqc_trim/fastqc_per_sequence_quality_scores_plot.png)  | ![](images/multiqc_afterqc/fastqc_per_sequence_quality_scores_plot.png)
-![](images/multiqc_raw/fastqc_per_base_sequence_quality_plot.png) | ![](images/multiqc_trim/fastqc_per_base_sequence_quality_plot.png)  | ![](images/multiqc_afterqc/fastqc_per_base_sequence_quality_plot.png)
-![](images/multiqc_raw/fastqc_per_base_sequence_content_plot.png) | ![](images/multiqc_trim/fastqc_per_base_sequence_content_plot.png)  | ![](images/multiqc_afterqc/fastqc_per_base_sequence_content_plot.png)
-![](images/multiqc_raw/fastqc_overrepresented_sequences_plot.png) | ![](images/multiqc_trim/fastqc_overrepresented_sequences_plot.png)  | ![](images/multiqc_afterqc/fastqc_overrepresented_sequences_plot.png)
-![](images/multiqc_raw/fastqc-status-check-heatmap.png) | ![](images/multiqc_trim/fastqc-status-check-heatmap.png)  | ![](images/multiqc_afterqc/fastqc-status-check-heatmap.png)
+![](images/multiqc_raw/fastqc_per_sequence_quality_scores_plot.png) | ![](images/multiqc_trim/fastqc_per_sequence_quality_scores_plot.png) | ![](images/multiqc_afterqc/fastqc_per_sequence_quality_scores_plot.png)
+![](images/multiqc_raw/fastqc_per_base_sequence_quality_plot.png) | ![](images/multiqc_trim/fastqc_per_base_sequence_quality_plot.png) | ![](images/multiqc_afterqc/fastqc_per_base_sequence_quality_plot.png)
+![](images/multiqc_raw/fastqc_per_base_sequence_content_plot.png) | ![](images/multiqc_trim/fastqc_per_base_sequence_content_plot.png) | ![](images/multiqc_afterqc/fastqc_per_base_sequence_content_plot.png)
+![](images/multiqc_raw/fastqc_overrepresented_sequences_plot.png) | ![](images/multiqc_trim/fastqc_overrepresented_sequences_plot.png) | ![](images/multiqc_afterqc/fastqc_overrepresented_sequences_plot.png)
+![](images/multiqc_raw/fastqc-status-check-heatmap.png) | ![](images/multiqc_trim/fastqc-status-check-heatmap.png) | ![](images/multiqc_afterqc/fastqc-status-check-heatmap.png)
 
 
 ## Results of mapping reads on the chromosome 14
