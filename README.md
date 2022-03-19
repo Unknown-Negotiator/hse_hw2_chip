@@ -2,7 +2,11 @@
 В данном практическом задании вы научитесь определять участки генома, где присутствует определенная гистоновая модификация в конкретном типе клеток с помощью анализа ChIP-Seq данных.
 ## [Google Colab link](https://colab.research.google.com/drive/1duVTtPtYxVa_Alkp62uzowUPBcbpUHEI?usp=sharing)
 ## Quality control
-Raw reads | Trimmed reads | Filtered and trimmed reads
+Изначальные сырые чтения имели проблемы с качеством по целому ряду параметров, поэтому было принято решение подрезать их с помощью trimmomatic. Trimmomatic решил лишь часть проблем с качеством, поэтому далее я обработал чтения с помощью программы afterqc, которая фильтрует и подрезает чтения, а также удаляет артефакты.
+
+Снизу приведены графики из multiqc отчётов по всем трём образцам для каждого из состояний: сырые чтения, подрезанные чтения, отфильтрованные чтения. Графики отображают только проблемные параметры.
+
+Raw reads | Trimmomatic | Trimmomatic & AfterQC
 -|-|-
 ![](images/multiqc_raw/fastqc_per_sequence_quality_scores_plot.png) | ![](images/multiqc_trim/fastqc_per_sequence_quality_scores_plot.png) | ![](images/multiqc_afterqc/fastqc_per_sequence_quality_scores_plot.png)
 ![](images/multiqc_raw/fastqc_per_base_sequence_quality_plot.png) | ![](images/multiqc_trim/fastqc_per_base_sequence_quality_plot.png) | ![](images/multiqc_afterqc/fastqc_per_base_sequence_quality_plot.png)
