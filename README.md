@@ -43,9 +43,9 @@ Our peaks in published | Published peaks in ours
 ## NGSplot & Heatmap
 Для сравнения в качестве теоретической версии локализации гистоновой метки было использовано изображение с [сайта биотехнологической кампании EpiCypher](https://www.epicypher.com/products/antibodies/snap-chip-certified-antibodies/histone-h3k9ac-antibody-snap-chip-certified), которая занимается в том числе продажей антител для проведения ChIP-seq экспериментов.
 ### Plots
-Replicate 1 | Theoretical
+Replicate 1 | Replicate 2 | Theoretical
 -|-
-![](images/result.png) | ![](images/theory_plot.png)
+![](images/result.png) | ![](images/result2.png) | ![](images/theory_plot.png)
 ### Conclusions
 #### NGSplot
 Построенные мной NGSplots совпадают с теоретической версией: интенсивность сигнала начинает быстро расти слева вблизи TSS, затем резко проваливается на самом TSS, после чего так же резко возрастает, достигая своего пика чуть правее TSS. Далее сигнал идет на спад: сначала быстро, потом более постепенно. Такое распределение можно объяснить тем, что гистоновая метка H3K9ac обычно располагается вблизи точки инициации транскрипции и положительно коррелирует с транскрипцией генов.
