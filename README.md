@@ -14,7 +14,7 @@ Raw reads | Trimmomatic | Trimmomatic & AfterQC
 ![](images/multiqc_raw/fastqc_overrepresented_sequences_plot.png) | ![](images/multiqc_trim/fastqc_overrepresented_sequences_plot.png) | ![](images/multiqc_afterqc/fastqc_overrepresented_sequences_plot.png)
 ![](images/multiqc_raw/fastqc-status-check-heatmap.png) | ![](images/multiqc_trim/fastqc-status-check-heatmap.png) | ![](images/multiqc_afterqc/fastqc-status-check-heatmap.png)
 
-
+По графикам “Status checks”, обобщающим оценки качества по всем параметрам, из последней строки таблицы видно, как менялось общее качество чтений по мере использования программ. Не трудно заметить, что лучшее совокупное качество чтения приобрели после обработки с помощью afterqc - красные индикаторы отображаются только по параметру “Per tile sequence quality” для двух образцов.
 ## Results of mapping reads on the chromosome 14
 Sample ID | Reads analyzed | Aligned 0 times | Aligned exactly 1 time | aligned >1 times
  --- |--- |--- |--- |---
